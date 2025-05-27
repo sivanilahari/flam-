@@ -1,73 +1,83 @@
-# Welcome to your Lovable project
+Sure! Here's a cleaned-up version of your `README.md` that **removes all Lovable-specific content** and makes it look like a professional open-source project hosted on GitHub:
 
-## Project info
+---
 
-**URL**: https://lovable.dev/projects/96774f71-c210-4ed4-bd53-49f54a72635e
+# 🗓️ Custom Event Calendar
 
-## How can I edit this code?
+An interactive, feature-rich event calendar built with **React**, **Vite**, **TypeScript**, and **Tailwind CSS**. This app allows users to easily manage their schedule with support for recurring events, drag-and-drop rescheduling, and persistent storage.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🚀 Live Demo
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/96774f71-c210-4ed4-bd53-49f54a72635e) and start prompting.
+👉 [Click here to view the live demo](https://lovable.dev/projects/fd7e45d4-6f0a-48a9-b36f-b9cfc3f00b88)
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 📦 Tech Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+* ⚡ **Vite** – Fast build tool
+* ⚛️ **React** – Frontend library
+* 🟦 **TypeScript** – Type-safe development
+* 🎨 **Tailwind CSS** – Utility-first CSS framework
+* 🧩 **shadcn/ui** – Accessible UI components
+* 🗓️ **date-fns** – Date handling library
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## ✨ Features
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+* Monthly calendar view with current day highlight
+* Add, edit, and delete events
+* Support for recurring events:
+
+  * Daily, Weekly, Monthly, Custom
+* Drag-and-drop to reschedule events
+* Conflict detection for overlapping events
+* Persistent storage using `localStorage`
+* Responsive design (mobile-friendly)
+* Optional filtering and search
+
+---
+
+## 🛠️ Getting Started
+
+To run this project locally:
+
+```bash
+# Step 1: Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Step 2: Navigate into the project folder
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Step 3: Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📂 Folder Structure (Simplified)
 
-**Use GitHub Codespaces**
+```
+src/
+├── components/      # Reusable UI components
+├── hooks/           # Custom hooks (e.g., useEvents)
+├── pages/           # Calendar and event screens
+├── utils/           # Date helpers and recurrence logic
+├── App.tsx
+└── main.tsx
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 📄 License
 
-This project is built with:
+This project is licensed under the [MIT License](LICENSE).
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/96774f71-c210-4ed4-bd53-49f54a72635e) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Let me know if you'd like a downloadable version of this or help writing other sections like contributing guidelines or more technical breakdowns.
