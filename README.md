@@ -8,11 +8,7 @@ An interactive, feature-rich event calendar built with **React**, **Vite**, **Ty
 
 ---
 
-## 🚀 Live Demo
 
-👉 [Click here to view the live demo](https://lovable.dev/projects/fd7e45d4-6f0a-48a9-b36f-b9cfc3f00b88)
-
----
 
 ## 📦 Tech Stack
 
