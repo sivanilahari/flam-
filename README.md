@@ -1,6 +1,4 @@
-Sure! Here's a cleaned-up version of your `README.md` that **removes all Lovable-specific content** and makes it look like a professional open-source project hosted on GitHub:
 
----
 
 # 🗓️ Custom Event Calendar
 
@@ -70,10 +68,4 @@ src/
 
 ---
 
-## 📄 License
 
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-Let me know if you'd like a downloadable version of this or help writing other sections like contributing guidelines or more technical breakdowns.
